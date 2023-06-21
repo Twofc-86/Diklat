@@ -1,0 +1,345 @@
+    /* Bagian Periode  */
+    
+    .me-5-role {
+        margin-right: 2.60rem;
+    }
+    
+    .container-search {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * 1);
+        padding-left: calc(var(--bs-gutter-x) * 1);
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1rem;
+        margin-bottom: 0.75rem;
+        display: flex;
+    }
+    
+    .w-custom {
+        width: 70% !important;
+    }
+    
+    .searchform {
+        background-color: var(--bs-card-bg);
+        border: 1px solid #d3d3d3;
+        left: 50%;
+        padding: 5px 4px;
+        margin-left: auto;
+        box-shadow: 0 4px 9px rgba(0, 0, 0, .37);
+        -moz-box-shadow: 0 4px 9px rgba(0, 0, 0, .37);
+        -webkit-box-shadow: 0 4px 9px rgba(0, 0, 0, .37);
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px
+    }
+    
+    .searchform input,
+    .searchform button {
+        float: left;
+    }
+    
+    .searchform input {
+        background: #fefefe;
+        border: none;
+        font: 12px/12px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+        margin-right: 5px;
+        padding: 6px;
+        width: 180px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, .4) inset, 1px 1px 1px rgba(255, 255, 255, .75);
+        -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4) inset, 1px 1px 1px rgba(255, 255, 255, .75);
+        -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4) inset, 1px 1px 1px rgba(255, 255, 255, .75);
+        border-radius: 9px;
+        -moz-border-radius: 9px;
+        -webkit-border-radius: 9px
+    }
+    
+    .searchform input:focus {
+        outline: none;
+        box-shadow: 0 0 4px #0d76be inset;
+        -moz-box-shadow: 0 0 4px #0d76be inset;
+        -webkit-box-shadow: 0 0 4px #0d76be inset;
+    }
+    
+    .searchform input::-webkit-input-placeholder {
+        font-style: italic;
+        line-height: 15px
+    }
+    
+    .searchform input:-moz-placeholder {
+        font-style: italic;
+        line-height: 15px
+    }
+    
+    .searchform button {
+        background: rgb(52, 173, 236);
+        background: -moz-linear-gradient(top, rgba(52, 173, 236, 1) 0%, rgba(38, 145, 220, 1) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(52, 173, 236, 1)), color-stop(100%, rgba(38, 145, 220, 1)));
+        background: -webkit-linear-gradient(top, rgba(52, 173, 236, 1) 0%, rgba(38, 145, 220, 1) 100%);
+        background: -o-linear-gradient(top, rgba(52, 173, 236, 1) 0%, rgba(38, 145, 220, 1) 100%);
+        background: -ms-linear-gradient(top, rgba(52, 173, 236, 1) 0%, rgba(38, 145, 220, 1) 100%);
+        background: linear-gradient(to bottom, rgba(52, 173, 236, 1) 0%, rgba(38, 145, 220, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#34adec', endColorstr='#2691dc', GradientType=0);
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font: 13px/13px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+        padding: 6px;
+        width: 80px;
+        box-shadow: 0 0 2px #2692dd inset;
+        -moz-box-shadow: 0 0 2px #2692dd inset;
+        -webkit-box-shadow: 0 0 2px #2692dd inset;
+        border-radius: 9px;
+        -moz-border-radius: 9px;
+        -webkit-border-radius: 9px;
+    }
+    
+    .searchform button:hover {
+        opacity: .9;
+    }
+    /* NIP */
+    
+    .NIP {
+        background-color: var(--bs-card-bg);
+        border: 1px solid #d3d3d3;
+        left: 50%;
+        padding: 5px 4px;
+        margin-right: auto;
+        box-shadow: 0 4px 9px rgba(0, 0, 0, .37);
+        -moz-box-shadow: 0 4px 9px rgba(0, 0, 0, .37);
+        -webkit-box-shadow: 0 4px 9px rgba(0, 0, 0, .37);
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px
+    }
+    
+    .NIP input,
+    .NIP button {
+        float: left;
+    }
+    
+    .NIP input {
+        background: #fefefe;
+        border: none;
+        font: 12px/12px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+        margin-right: 0;
+        padding: 6px;
+        width: 180px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, .4) inset, 1px 1px 1px rgba(255, 255, 255, .75);
+        -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4) inset, 1px 1px 1px rgba(255, 255, 255, .75);
+        -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4) inset, 1px 1px 1px rgba(255, 255, 255, .75);
+        border-radius: 9px;
+        -moz-border-radius: 9px;
+        -webkit-border-radius: 9px
+    }
+    
+    .NIP input:focus {
+        outline: none;
+        box-shadow: 0 0 4px #0d76be inset;
+        -moz-box-shadow: 0 0 4px #0d76be inset;
+        -webkit-box-shadow: 0 0 4px #0d76be inset;
+    }
+    
+    .NIP input::-webkit-input-placeholder {
+        font-style: italic;
+        line-height: 15px
+    }
+    
+    .NIP input:-moz-placeholder {
+        font-style: italic;
+        line-height: 15px
+    }
+    
+    .NIP button {
+        background: rgb(52, 173, 236);
+        background: -moz-linear-gradient(top, rgba(52, 173, 236, 1) 0%, rgba(38, 145, 220, 1) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(52, 173, 236, 1)), color-stop(100%, rgba(38, 145, 220, 1)));
+        background: -webkit-linear-gradient(top, rgba(52, 173, 236, 1) 0%, rgba(38, 145, 220, 1) 100%);
+        background: -o-linear-gradient(top, rgba(52, 173, 236, 1) 0%, rgba(38, 145, 220, 1) 100%);
+        background: -ms-linear-gradient(top, rgba(52, 173, 236, 1) 0%, rgba(38, 145, 220, 1) 100%);
+        background: linear-gradient(to bottom, rgba(52, 173, 236, 1) 0%, rgba(38, 145, 220, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#34adec', endColorstr='#2691dc', GradientType=0);
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font: 13px/13px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+        padding: 6px;
+        width: 80px;
+        box-shadow: 0 0 2px #2692dd inset;
+        -moz-box-shadow: 0 0 2px #2692dd inset;
+        -webkit-box-shadow: 0 0 2px #2692dd inset;
+        border-radius: 9px;
+        -moz-border-radius: 9px;
+        -webkit-border-radius: 9px;
+    }
+    /* Bagian dropdown */
+    
+    .dropsearch {
+        background-color: var(--bs-card-bg);
+        border: 1px solid #d3d3d3;
+        left: 50%;
+        padding: 3px 3px;
+        top: 50%;
+        margin-right: auto;
+        min-width: 200px;
+        height: 38px;
+        overflow: auto;
+        box-shadow: 0 4px 9px rgba(0, 0, 0, .37);
+        -moz-box-shadow: 0 4px 9px rgba(0, 0, 0, .37);
+        -webkit-box-shadow: 0 4px 9px rgba(0, 0, 0, .37);
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px
+    }
+    
+    .dropbtn-custom {
+        background: #fefefe;
+        border: none;
+        font: 12px/12px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 3px;
+        padding: 6px;
+        min-width: 200px;
+        overflow: auto;
+        box-shadow: 0 0 4px rgba(0, 0, 0, .4) inset, 1px 1px 1px rgba(255, 255, 255, .75);
+        -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4) inset, 1px 1px 1px rgba(255, 255, 255, .75);
+        -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4) inset, 1px 1px 1px rgba(255, 255, 255, .75);
+        border-radius: 9px;
+        -moz-border-radius: 9px;
+        -webkit-border-radius: 9px
+    }
+    /* Dropdown button on hover & focus */
+    
+    .dropbtn-custom:hover,
+    .dropbtn:focus {
+        background-color: #ffffff;
+    }
+    /* Dropdown Content (Hidden by Default) */
+    
+    .dropdown-custom-content {
+        display: none;
+        position: absolute;
+        background: #fefefe;
+        border: none;
+        font: 12px/12px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+        padding: 6px;
+        min-width: 200px;
+        overflow: auto;
+        box-shadow: 0 0 4px rgba(0, 0, 0, .4) inset, 1px 1px 1px rgba(255, 255, 255, .75);
+        border-radius: 9px;
+        z-index: 1;
+    }
+    /* Change color of dropdown links on hover */
+    
+    .dropdown-custom-content a {
+        color: black;
+        padding: 12px 16px;
+        text-align: center;
+        display: block;
+    }
+    
+    .dropdown-custom-content a:hover {
+        background-color: #ddd;
+    }
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    
+    .show {
+        display: block;
+    }
+    
+    ul.ks-cboxtags {
+        list-style: none;
+        padding: 20px;
+    }
+    
+    ul.ks-cboxtags li {
+        display: inline;
+    }
+    
+    ul.ks-cboxtags li label {
+        display: inline-block;
+        background-color: rgba(255, 255, 255, .9);
+        border: 2px solid rgba(139, 139, 139, .3);
+        color: #adadad;
+        border-radius: 25px;
+        white-space: nowrap;
+        margin: 3px 0px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        transition: all .2s;
+    }
+    
+    ul.ks-cboxtags li label {
+        padding: 8px 12px;
+        cursor: pointer;
+    }
+    
+    ul.ks-cboxtags li label::before {
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 12px;
+        padding: 2px 6px 2px 2px;
+        content: "\f067";
+        transition: transform .3s ease-in-out;
+    }
+    
+    ul.ks-cboxtags li input[type="checkbox"]:checked+label::before {
+        content: "\f00c";
+        transform: rotate(-360deg);
+        transition: transform .3s ease-in-out;
+    }
+    
+    ul.ks-cboxtags li input[type="checkbox"]:checked+label {
+        border: 2px solid #1bdbf8;
+        background-color: #12bbd4;
+        color: #fff;
+        transition: all .2s;
+    }
+    
+    ul.ks-cboxtags li input[type="checkbox"] {
+        display: absolute;
+    }
+    
+    ul.ks-cboxtags li input[type="checkbox"] {
+        position: absolute;
+        opacity: 0;
+    }
+    
+    ul.ks-cboxtags li input[type="checkbox"]:focus+label {
+        border: 2px solid #e9a1ff;
+    }
+    /* DATA PELATIHAN SECTION */
+    /* col data pelatihan */
+    
+    .col-titik {
+        flex: 0 0 auto;
+        width: 4%;
+    }
+    
+    .col-awal {
+        flex: 0 0 auto;
+        width: 4.7%;
+    }
+    
+    .col-akhir {
+        flex: 0 0 auto;
+        width: 8.333333%;
+    }
+    
+    .oblique-login {
+        overflow: hidden;
+        width: 61%;
+        right: -10rem;
+    }
+    /* login Page Customizations */
